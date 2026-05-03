@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yale School of Art</title>
+    <link rel="stylesheet" href="/src/index.css" />
+    <link rel="stylesheet" href="/src/App.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <button class="menu-toggle" type="button" aria-label="Open menu">Menu</button>
+        <button class="brand" type="button" data-page="home">
+          <img src="/assets/yale-crest.svg" alt="" />
+          <strong>Yale School of Art</strong>
+        </button>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <button class="active" type="button" data-page="home">Home</button>
+          <button type="button" data-page="about">About the School</button>
+          <button type="button" data-page="apply">Apply to the School</button>
+          <button type="button" data-page="exhibitions">Exhibitions</button>
+          <button type="button" data-page="publications">Publications</button>
+          <button type="button" data-page="news">News</button>
+          <button type="button" data-page="events">Public Events</button>
+        </nav>
+        <a class="contact-link" href="mailto:artschool.info@yale.edu">Contact</a>
+      </header>
+
+      <aside class="mobile-drawer" aria-label="Mobile navigation">
+        <div class="drawer-top">
+          <strong>Yale School of Art</strong>
+          <button type="button" aria-label="Close menu">Close</button>
+        </div>
+        <button type="button" data-page="home">Home</button>
+        <button type="button" data-page="about">About the School</button>
+        <button type="button" data-page="apply">Apply to the School</button>
+        <button type="button" data-page="exhibitions">Exhibitions</button>
+        <button type="button" data-page="publications">Publications</button>
+        <button type="button" data-page="news">News</button>
+        <button type="button" data-page="events">Public Events</button>
+      </aside>
+      <button class="drawer-backdrop" type="button" aria-label="Close menu"></button>
+
+      <main>
+        <section id="hero" class="hero hero-home" style="--hero-image: url('https://commons.wikimedia.org/wiki/Special:Redirect/file/Yale%20-%20University%20Art%20Gallery%20%2844517964724%29.jpg?width=2400')">
+          <div class="hero-inner">
+            <div class="address-strip">
+              <span>Yale School of Art</span>
+              <span>1156 Chapel Street, POB 208339</span>
+              <span>New Haven, Connecticut, 06520-8339</span>
+            </div>
+            <p class="kicker" id="hero-kicker">Yale School of Art</p>
+            <h1 id="hero-title">Yale School of Art</h1>
+            <p class="hero-text" id="hero-text">A graduate school and public wiki for artists, designers, faculty, students, alumni, and visitors.</p>
+            <div class="hero-actions">
+              <button type="button" data-page="apply">Apply to the School</button>
+              <button type="button" class="light" data-page="exhibitions">View exhibitions</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="utility-row" aria-label="Site tools">
+          <label class="site-search">
+            <span>Search</span>
+            <input id="search" placeholder="Search pages, events, admissions" />
+          </label>
+          <button class="quick-toggle" type="button">Quick links</button>
+        </section>
+
+        <section class="search-results" id="search-results" aria-label="Search results" hidden></section>
+
+        <section class="quick-links" hidden>
+          <button type="button" data-page="about">Mission Statement</button>
+          <button type="button" data-page="apply">Graduate Admission</button>
+          <button type="button" data-page="apply">Financial Aid</button>
+          <button type="button" data-page="events">Academic Calendar</button>
+        </section>
+
+        <section class="page-section home-layout page-panel" data-panel="home">
+          <article class="editorial-block intro-card">
+            <p class="section-label">The School of Art</p>
+            <h2>An ongoing collaborative experiment in digital publishing and information sharing.</h2>
+            <p>
+              This website belongs to the School of Art community. Students, faculty, staff, and alumni
+              can contribute pages while visitors get a clearer path to programs, events, exhibitions,
+              admissions, and news.
+            </p>
+          </article>
+          <div class="notice-list">
+            <button type="button" data-page="news"><span>Community</span><strong>Happening at SOA</strong><p>Open studios, talks, critiques, exhibitions, and announcements for the week.</p></button>
+            <button type="button" data-page="news"><span>Wiki</span><strong>Community Bulletin Board</strong><p>A shared space for opportunities, calls, resources, and student notes.</p></button>
+            <button type="button" data-page="events"><span>Updates</span><strong>Calendars and Newsletters</strong><p>Academic dates, public events, and School of Art newsletters in one clear place.</p></button>
+          </div>
+        </section>
+
+        <section class="page-section two-column page-panel" data-panel="about" hidden>
+          <article class="editorial-block">
+            <p class="section-label">In About the School</p>
+            <h2>Mission, land acknowledgement, study areas, people, resources, visiting, facilities, support, contact, history, and site information.</h2>
+            <p>The School of Art provides an educational context shaped by critique, studio practice, and conversation.</p>
+          </article>
+          <div class="info-grid">
+            <article><h3>Graphic Design</h3><p>MFA study area with faculty critique, exhibitions, and public programming.</p></article>
+            <article><h3>Painting and Printmaking</h3><p>Studio practice, critique, and material research across contemporary painting and printmaking.</p></article>
+            <article><h3>Photography</h3><p>Image-making, books, installations, moving images, and critical dialogue.</p></article>
+            <article><h3>Sculpture</h3><p>Studio culture for object, installation, media, performance, and public work.</p></article>
+          </div>
+          <form class="action-form">
+            <h3>Plan a Visit</h3>
+            <input name="name" placeholder="Your name" />
+            <input name="date" type="date" />
+            <button type="submit">Request visit</button>
+          </form>
+        </section>
+
+        <section class="page-section apply-layout page-panel" data-panel="apply" hidden>
+          <article class="editorial-block">
+            <p class="section-label">Apply to the School</p>
+            <h2>Graduate admission is organized by study area, portfolio strength, and clear deadlines.</h2>
+            <p>Prospective students can review requirements, prepare portfolio material, check financial aid information, and follow the admissions checklist from one place.</p>
+            <button type="button" data-page="about">Review study areas</button>
+          </article>
+          <div class="check-panel">
+            <h3>Application Checklist</h3>
+            <button class="checked" type="button"><span></span>Portfolio</button>
+            <button type="button"><span></span>Statement</button>
+            <button type="button"><span></span>Recommendations</button>
+            <button type="button"><span></span>Transcripts</button>
+            <button type="button"><span></span>Application fee</button>
+          </div>
+        </section>
+
+        <section class="page-section page-panel" data-panel="exhibitions" hidden>
+          <div class="section-heading">
+            <p class="section-label">Exhibitions</p>
+            <h2>Current and upcoming exhibitions are easier to compare by date and location.</h2>
+          </div>
+          <div class="listing-grid">
+            <article><span>May 6 to May 18</span><h3>Thesis Exhibition</h3><p>Green Hall Gallery</p></article>
+            <article><span>May 10</span><h3>Open Studios</h3><p>1156 Chapel Street</p></article>
+            <article><span>May 16</span><h3>Visiting Artist Projects</h3><p>32 Edgewood Avenue</p></article>
+          </div>
+        </section>
+
+        <section class="page-section page-panel" data-panel="publications" hidden>
+          <div class="section-heading">
+            <p class="section-label">Publications</p>
+            <h2>A readable catalog for books, archives, and student-led publishing.</h2>
+          </div>
+          <div class="publication-list">
+            <article><div><h3>Yale Graphic Design MFA</h3><p>Catalogs and thesis books from recent graduating classes.</p></div></article>
+            <article><div><h3>Painting and Printmaking Notes</h3><p>Studio writing, exhibition records, and community references.</p></div></article>
+            <article><div><h3>Photography Publications</h3><p>Student-led books, image archives, and public project documentation.</p></div></article>
+          </div>
+        </section>
+
+        <section class="page-section news-layout page-panel" data-panel="news" hidden>
+          <div>
+            <p class="section-label">News</p>
+            <h2>Announcements from the School of Art community.</h2>
+          </div>
+          <article><span>01</span><p>Critic visits and lecture schedule updated for the spring term.</p></article>
+          <article><span>02</span><p>Student work selected for campus and citywide exhibition programs.</p></article>
+          <article><span>03</span><p>New faculty resources are available through the School of Art office.</p></article>
+          <form class="newsletter">
+            <h3>Receive School updates</h3>
+            <input name="email" type="email" placeholder="Email address" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </section>
+
+        <section class="page-section event-layout page-panel" data-panel="events" hidden>
+          <div class="section-heading">
+            <p class="section-label">Public Events</p>
+            <h2>Lectures, screenings, critiques, and gallery programs.</h2>
+          </div>
+          <article><strong>Mon</strong><h3>Artist Lecture</h3><p>A public conversation in Green Hall.</p></article>
+          <article><strong>Wed</strong><h3>Film Screening</h3><p>Moving-image work selected by students.</p></article>
+          <article><strong>Fri</strong><h3>Gallery Walkthrough</h3><p>Guided visit with exhibiting artists.</p></article>
+        </section>
+
+        <div class="status-message" role="status" hidden></div>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <strong>Yale School of Art</strong>
+          <span>1156 Chapel Street, New Haven, CT</span>
+        </div>
+        <a href="https://www.art.yale.edu/" target="_blank" rel="noreferrer">art.yale.edu</a>
+      </footer>
+    </div>
+
+    <script>
+      const pages = {
+        home: { title: 'Yale School of Art', path: '/', kicker: 'Yale School of Art', text: 'A graduate school and public wiki for artists, designers, faculty, students, alumni, and visitors.', image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Yale%20-%20University%20Art%20Gallery%20%2844517964724%29.jpg?width=2400' },
+        about: { title: 'About the School', path: '/about', kicker: 'Mission, people, facilities', text: 'The Yale School of Art confers MFA degrees in Graphic Design, Painting and Printmaking, Photography, and Sculpture.', image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Yale%20Art%20Gallery.jpg?width=2200' },
+        apply: { title: 'Apply to the School', path: '/apply', kicker: 'Graduate admission', text: 'Application information for prospective MFA students, including portfolio expectations, deadlines, and financial aid routes.', image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Stone%20art%20studio%20%28Unsplash%29.jpg?width=2200' },
+        exhibitions: { title: 'Exhibitions', path: '/exhibitions', kicker: 'On view and upcoming', text: 'Student, faculty, alumni, and guest exhibitions across School of Art spaces and public venues.', image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Barjeel%20Art%20Foundation%20-%20Yale%20Art%20Gallery.jpg?width=2200' },
+        publications: { title: 'Publications', path: '/publications', kicker: 'Books, catalogs, archives', text: 'Printed and digital publications from the School of Art community, organized for browsing and reference.', image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Laptop%20on%20desk%20book%20stacks%20%28Unsplash%29.jpg?width=2200' },
+        news: { title: 'News', path: '/news', kicker: 'School announcements', text: 'Updates from the Yale School of Art community, including opportunities, awards, exhibitions, and lectures.', image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Biblioteca%20Vasconcelos%20-%20Salas%20de%20lectura.jpg?width=2200' },
+        events: { title: 'Public Events', path: '/public-events', kicker: 'Lectures, talks, screenings', text: 'Public programs at the School of Art, made easier to scan by date, format, and location.', image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Gammage%20Auditorium%20%2832342650252%29.jpg?width=2200' }
+      };
+
+      const hero = document.querySelector('#hero');
+      const status = document.querySelector('.status-message');
+
+      function showStatus(text) {
+        status.hidden = false;
+        status.textContent = text;
+      }
+
+      function openPage(key, push = true) {
+        const page = pages[key] || pages.home;
+        document.querySelectorAll('[data-panel]').forEach((panel) => {
+          panel.hidden = panel.dataset.panel !== key;
+        });
+        document.querySelectorAll('[data-page]').forEach((button) => {
+          button.classList.toggle('active', button.dataset.page === key && button.closest('.desktop-nav'));
+        });
+        hero.className = `hero hero-${key}`;
+        hero.style.setProperty('--hero-image', `url('${page.image}')`);
+        document.querySelector('#hero-kicker').textContent = page.kicker;
+        document.querySelector('#hero-title').textContent = page.title;
+        document.querySelector('#hero-text').textContent = page.text;
+        document.querySelector('.mobile-drawer').classList.remove('open');
+        if (push) history.pushState({ key }, page.title, page.path);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      document.querySelectorAll('[data-page]').forEach((button) => {
+        button.addEventListener('click', () => openPage(button.dataset.page));
+      });
+
+      document.querySelector('.menu-toggle').addEventListener('click', () => {
+        document.querySelector('.mobile-drawer').classList.add('open');
+      });
+
+      document.querySelectorAll('.drawer-top button, .drawer-backdrop').forEach((button) => {
+        button.addEventListener('click', () => document.querySelector('.mobile-drawer').classList.remove('open'));
+      });
+
+      document.querySelector('.quick-toggle').addEventListener('click', () => {
+        const links = document.querySelector('.quick-links');
+        links.hidden = !links.hidden;
+      });
+
+      document.querySelector('#search').addEventListener('input', (event) => {
+        const value = event.target.value.toLowerCase().trim();
+        const results = document.querySelector('#search-results');
+        results.innerHTML = '';
+        results.hidden = !value;
+        if (!value) return;
+        Object.entries(pages).filter(([, page]) => `${page.title} ${page.kicker} ${page.text}`.toLowerCase().includes(value)).forEach(([key, page]) => {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.innerHTML = `<strong>${page.title}</strong><span>${page.text}</span>`;
+          button.addEventListener('click', () => openPage(key));
+          results.append(button);
+        });
+      });
+
+      document.querySelectorAll('form').forEach((form) => {
+        form.addEventListener('submit', (event) => {
+          event.preventDefault();
+          const email = form.querySelector('input[type="email"]');
+          const name = form.querySelector('input[name="name"]');
+          showStatus(email ? `Thanks. Updates will be sent to ${email.value || 'your email address'}.` : `${name && name.value ? name.value : 'Visitor'}, your request has been recorded.`);
+          form.reset();
+        });
+      });
+
+      document.querySelectorAll('.check-panel button').forEach((button) => {
+        button.addEventListener('click', () => button.classList.toggle('checked'));
+      });
+
+      addEventListener('popstate', () => {
+        const found = Object.entries(pages).find(([, page]) => page.path === location.pathname);
+        openPage(found ? found[0] : 'home', false);
+      });
+
+      const initial = Object.entries(pages).find(([, page]) => page.path === location.pathname);
+      if (initial) openPage(initial[0], false);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,282 @@
+[
+  {
+    "path": "/",
+    "url": "https://www.art.yale.edu/",
+    "status": 200,
+    "bytes": 38336,
+    "filename": "home.html"
+  },
+  {
+    "path": "/about",
+    "url": "https://www.art.yale.edu/about",
+    "status": 200,
+    "bytes": 24434,
+    "filename": "about.html"
+  },
+  {
+    "path": "/apply",
+    "url": "https://www.art.yale.edu/apply",
+    "status": 200,
+    "bytes": 21210,
+    "filename": "apply.html"
+  },
+  {
+    "path": "/events",
+    "url": "https://www.art.yale.edu/events",
+    "status": 404,
+    "bytes": 11594,
+    "filename": "events.html"
+  },
+  {
+    "path": "/exhibitions",
+    "url": "https://www.art.yale.edu/exhibitions",
+    "status": 200,
+    "bytes": 33410,
+    "filename": "exhibitions.html"
+  },
+  {
+    "path": "/publications",
+    "url": "https://www.art.yale.edu/publications",
+    "status": 200,
+    "bytes": 48366,
+    "filename": "publications.html"
+  },
+  {
+    "path": "/news",
+    "url": "https://www.art.yale.edu/news",
+    "status": 200,
+    "bytes": 726258,
+    "filename": "news.html"
+  },
+  {
+    "path": "/faculty",
+    "url": "https://www.art.yale.edu/faculty",
+    "status": 200,
+    "bytes": 18964,
+    "filename": "faculty.html"
+  },
+  {
+    "path": "/graduate-study-areas",
+    "url": "https://www.art.yale.edu/graduate-study-areas",
+    "status": 404,
+    "bytes": 11594,
+    "filename": "graduate-study-areas.html"
+  },
+  {
+    "path": "/painting-printmaking",
+    "url": "https://www.art.yale.edu/painting-printmaking",
+    "status": 404,
+    "bytes": 11594,
+    "filename": "painting-printmaking.html"
+  },
+  {
+    "path": "/photography",
+    "url": "https://www.art.yale.edu/photography",
+    "status": 200,
+    "bytes": 19450,
+    "filename": "photography.html"
+  },
+  {
+    "path": "/graphic-design",
+    "url": "https://www.art.yale.edu/graphic-design",
+    "status": 200,
+    "bytes": 25687,
+    "filename": "graphic-design.html"
+  },
+  {
+    "path": "/sculpture",
+    "url": "https://www.art.yale.edu/sculpture",
+    "status": 200,
+    "bytes": 19709,
+    "filename": "sculpture.html"
+  },
+  {
+    "path": "/public-events",
+    "url": "https://www.art.yale.edu/public-events",
+    "status": 200,
+    "bytes": 25443,
+    "filename": "public-events.html"
+  },
+  {
+    "path": "/home/edit",
+    "url": "https://www.art.yale.edu/home/edit",
+    "status": 200,
+    "bytes": 5444,
+    "filename": "home-edit.html"
+  },
+  {
+    "path": "/pages/2",
+    "url": "https://www.art.yale.edu/pages/2",
+    "status": 200,
+    "bytes": 5444,
+    "filename": "pages-2.html"
+  },
+  {
+    "path": "/about/facilities",
+    "url": "https://www.art.yale.edu/about/facilities",
+    "status": 200,
+    "bytes": 34604,
+    "filename": "about-facilities.html"
+  },
+  {
+    "path": "/courses",
+    "url": "https://www.art.yale.edu/courses",
+    "status": 200,
+    "bytes": 16755,
+    "filename": "courses.html"
+  },
+  {
+    "path": "/opportunities",
+    "url": "https://www.art.yale.edu/opportunities",
+    "status": 200,
+    "bytes": 171835,
+    "filename": "opportunities.html"
+  },
+  {
+    "path": "/resources",
+    "url": "https://www.art.yale.edu/resources",
+    "status": 200,
+    "bytes": 25028,
+    "filename": "resources.html"
+  },
+  {
+    "path": "/about/resources/academic-calendar",
+    "url": "https://www.art.yale.edu/about/resources/academic-calendar",
+    "status": 200,
+    "bytes": 23031,
+    "filename": "about-resources-academic-calendar.html"
+  },
+  {
+    "path": "/about/support-the-school",
+    "url": "https://www.art.yale.edu/about/support-the-school",
+    "status": 200,
+    "bytes": 23879,
+    "filename": "about-support-the-school.html"
+  },
+  {
+    "path": "/about/visiting",
+    "url": "https://www.art.yale.edu/about/visiting",
+    "status": 200,
+    "bytes": 32245,
+    "filename": "about-visiting.html"
+  },
+  {
+    "path": "/about/contact",
+    "url": "https://www.art.yale.edu/about/contact",
+    "status": 200,
+    "bytes": 26088,
+    "filename": "about-contact.html"
+  },
+  {
+    "path": "/sitemap",
+    "url": "https://www.art.yale.edu/sitemap",
+    "status": 200,
+    "bytes": 23509,
+    "filename": "sitemap.html"
+  },
+  {
+    "path": "/about/edit",
+    "url": "https://www.art.yale.edu/about/edit",
+    "status": 200,
+    "bytes": 5444,
+    "filename": "about-edit.html"
+  },
+  {
+    "path": "/pages/4352",
+    "url": "https://www.art.yale.edu/pages/4352",
+    "status": 200,
+    "bytes": 5444,
+    "filename": "pages-4352.html"
+  },
+  {
+    "path": "/about/mission-statement",
+    "url": "https://www.art.yale.edu/about/mission-statement",
+    "status": 200,
+    "bytes": 17826,
+    "filename": "about-mission-statement.html"
+  },
+  {
+    "path": "/about/land-acknowledgement",
+    "url": "https://www.art.yale.edu/about/land-acknowledgement",
+    "status": 200,
+    "bytes": 17961,
+    "filename": "about-land-acknowledgement.html"
+  },
+  {
+    "path": "/about/study-areas",
+    "url": "https://www.art.yale.edu/about/study-areas",
+    "status": 200,
+    "bytes": 20098,
+    "filename": "about-study-areas.html"
+  },
+  {
+    "path": "/about/people",
+    "url": "https://www.art.yale.edu/about/people",
+    "status": 200,
+    "bytes": 19668,
+    "filename": "about-people.html"
+  },
+  {
+    "path": "/about/resources",
+    "url": "https://www.art.yale.edu/about/resources",
+    "status": 200,
+    "bytes": 22964,
+    "filename": "about-resources.html"
+  },
+  {
+    "path": "/about/history",
+    "url": "https://www.art.yale.edu/about/history",
+    "status": 200,
+    "bytes": 33858,
+    "filename": "about-history.html"
+  },
+  {
+    "path": "/about/about-this-site",
+    "url": "https://www.art.yale.edu/about/about-this-site",
+    "status": 200,
+    "bytes": 22516,
+    "filename": "about-about-this-site.html"
+  },
+  {
+    "path": "/apply/edit",
+    "url": "https://www.art.yale.edu/apply/edit",
+    "status": 200,
+    "bytes": 5444,
+    "filename": "apply-edit.html"
+  },
+  {
+    "path": "/pages/4373",
+    "url": "https://www.art.yale.edu/pages/4373",
+    "status": 200,
+    "bytes": 5444,
+    "filename": "pages-4373.html"
+  },
+  {
+    "path": "/apply/graduate-admission",
+    "url": "https://www.art.yale.edu/apply/graduate-admission",
+    "status": 200,
+    "bytes": 33690,
+    "filename": "apply-graduate-admission.html"
+  },
+  {
+    "path": "/about/resources/financial-aid",
+    "url": "https://www.art.yale.edu/about/resources/financial-aid",
+    "status": 200,
+    "bytes": 27397,
+    "filename": "about-resources-financial-aid.html"
+  },
+  {
+    "path": "/about/study-areas/graduate-study-areas",
+    "url": "https://www.art.yale.edu/about/study-areas/graduate-study-areas",
+    "status": 200,
+    "bytes": 36275,
+    "filename": "about-study-areas-graduate-study-areas.html"
+  },
+  {
+    "path": "/brochures-and-documentation",
+    "url": "https://www.art.yale.edu/brochures-and-documentation",
+    "status": 200,
+    "bytes": 19552,
+    "filename": "brochures-and-documentation.html"
+  }
+]
